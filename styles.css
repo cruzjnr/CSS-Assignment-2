@@ -4,15 +4,15 @@ html {
 }
 section {
     margin: 0 auto;
-    padding: 20px 10px;
+    padding: 40px 10px;
     max-width: 1000px;
 }
 
 body {
-    font-family: 'poppins' sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 16px;
     margin: 0;
-    padding: 0 10px;
+    /* padding: 40px 10px; */
     text-align: center;
     color: blue;
     background: rgba(173, 216, 230, 0.596);
@@ -63,10 +63,9 @@ body {
 }
 
 .about img {
-    width: 220px;
+    width: 40%;
     max-width: 350px;
-    height: 220px;
-    object-fit: contain;
+    height: auto;
 }
 
 a:hover, #button:hover {
